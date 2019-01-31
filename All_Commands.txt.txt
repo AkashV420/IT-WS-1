@@ -1,0 +1,66 @@
+ALL COMMANDS USED IN ASSIGNMENT ARE LISTED BELOW WITH THERE DESCRIPTION:-
+1. sleep -> sleep for the specified number of seconds.
+
+2. notify-send -> sends output as desktop notification.
+
+3. echo -> display a line of text.
+
+4. ls -Rl -> list subdirectories  recursively in a long listing format.
+
+5. grep -> print lines matching a pattern.
+
+6. | -> (also known as 'piping') It transfer the standard output to some other destination.
+
+7. awk -> Do pattern scanning and processing language
+
+8. apropos -> The apropos command displays a list of all topics in the man pages that are related to the subject of a query.   
+              apropos takes its name from the English word with the same spelling (and the same pronunciation) that means relevant. 
+              It is particularly useful when searching for commands without knowing their exact names.
+
+9. wc -l -> Print byte, word, and line counts, count the number of bytes, whitespace-separated words, and newlines in each given FILE, 
+            or standard input if none are given or for a FILE of `-'.
+           And '-l' here prints only the line counts.
+
+10. cut -> remove sections from each line of files.
+           -f, Select only these fields; also print any line that contains no delimiter character, unless the -s option is specified. 
+           -d, use DELIM instead of TAB for field delimiter. 
+
+11. cp -> Copy files and directories.
+
+12. sed -> stream editor for filtering and transforming text.
+          -i [suffix]:- Edit files in place (makes backup if extension supplied). 
+           The default operation mode is to break symbolic and hard links. 
+           This can be changed with --follow-symlinks and --copy.
+           -e script, Add the script to the commands to be executed
+
+13.  cat -> (Mostly Used Command) Concatenate files and print on the standard output.
+
+14. Wget ->  The non-interactive network downloader. 
+             It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies. 
+
+15. read ->  Read from a file descriptor or takes input from the Keyboard. 
+             -r :- Backslash does not act as an escape character.  
+                   The backslash is considered to be part of the line.  
+                   In  particular,  a  backslash-newline pair may not be used as a line
+                   continuation.
+
+16. bc ->  An arbitrary precision calculator language.
+
+17. 2/dev/null ->  ignore error output from the command. 
+                  For example, if kill cannot stop a process because it doesn't exist, 
+                  or because the current user doesn't have the permission to do that, 
+                  it would print messages on stderr. 
+                  "By redirecting stderr to /dev/null, you effectively suppress these messages".
+
+18.                   
+
+
+
+
+
+
+
+
+
+
+             
