@@ -1,7 +1,6 @@
 #!/bin/bash
 printf "date   time  path\n"
-ls -Rl | grep "^-" >file1
-ls -Rl | grep "^d" >> file1
+find -ls > file1
 awk '{print $6,$7,$8,$9}' file1
 apropos -v "lo" | grep "^lo" > a.txt 
 cat a.txt > 2018101011.txt         
